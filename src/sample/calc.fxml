@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="329.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="btnNum1" layoutX="19.0" layoutY="74.0" mnemonicParsing="false" onAction="#NumClick1" prefHeight="50.0" prefWidth="50.0" text="7">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum2" layoutX="102.0" layoutY="74.0" mnemonicParsing="false" onAction="#NumClick2" prefHeight="50.0" prefWidth="50.0" text="8">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum3" layoutX="184.0" layoutY="74.0" mnemonicParsing="false" onAction="#NumClick3" prefHeight="50.0" prefWidth="50.0" text="9">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum4" layoutX="19.0" layoutY="129.0" mnemonicParsing="false" onAction="#NumClick4" prefHeight="50.0" prefWidth="50.0" text="4">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum5" layoutX="102.0" layoutY="128.0" mnemonicParsing="false" onAction="#NumClick5" prefHeight="50.0" prefWidth="50.0" text="5">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum6" layoutX="184.0" layoutY="128.0" mnemonicParsing="false" onAction="#NumClick6" prefHeight="50.0" prefWidth="50.0" text="6">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum7" layoutX="19.0" layoutY="189.0" mnemonicParsing="false" onAction="#NumClick7" prefHeight="50.0" prefWidth="50.0" text="1">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum8" layoutX="102.0" layoutY="188.0" mnemonicParsing="false" onAction="#NumClick8" prefHeight="50.0" prefWidth="50.0" text="2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum9" layoutX="184.0" layoutY="188.0" mnemonicParsing="false" onAction="#NumClick9" prefHeight="50.0" prefWidth="50.0" text="3">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum0" layoutX="19.0" layoutY="251.0" mnemonicParsing="false" onAction="#NumClick0" prefHeight="50.0" prefWidth="50.0" text="0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnNum00" layoutX="102.0" layoutY="250.0" mnemonicParsing="false" onAction="#NumClick00" prefHeight="50.0" prefWidth="50.0" text=".">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnPoint" layoutX="184.0" layoutY="250.0" mnemonicParsing="false" onAction="#ClickPoint" prefHeight="50.0" prefWidth="50.0" text="=">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnDiv" layoutX="314.0" layoutY="250.0" mnemonicParsing="false" onAction="#ClickDiv" prefHeight="50.0" prefWidth="50.0" text="/">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnMul" layoutX="314.0" layoutY="188.0" mnemonicParsing="false" onAction="#ClickMul" prefHeight="50.0" prefWidth="50.0" text="\%">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnDif" layoutX="314.0" layoutY="128.0" mnemonicParsing="false" onAction="#ClickDif" prefHeight="50.0" prefWidth="50.0" text="-">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnSum" layoutX="314.0" layoutY="73.0" mnemonicParsing="false" onAction="#ClickSum" prefHeight="50.0" prefWidth="50.0" text="*">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnClear" layoutX="372.0" layoutY="73.0" mnemonicParsing="false" onAction="#ClickClear" prefHeight="50.0" prefWidth="50.0" text="C">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnEquals" layoutX="372.0" layoutY="187.0" mnemonicParsing="false" onAction="#ClickEquals" prefHeight="112.0" prefWidth="50.0" text="+">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnDelete" layoutX="372.0" layoutY="125.0" mnemonicParsing="false" onAction="#ClickDelete" prefHeight="50.0" prefWidth="50.0" text="&lt;-">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <TextField fx:id="tfRes" alignment="CENTER" editable="false" layoutX="19.0" layoutY="4.0" prefHeight="60.0" prefWidth="437.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+    </children>
+</Pane>
